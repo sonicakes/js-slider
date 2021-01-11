@@ -48,6 +48,18 @@ body {
     min-height: 370px;
 }
 
+.third-img {
+    background-image: url("/images/image-john.jpg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    position: absolute;
+    width: 100%;
+    min-height: 370px;
+}
+
+
 .quote {
     flex: 50%;
 }
@@ -58,13 +70,12 @@ body {
 }
 
 .slider-icons {
-    position: absolute;
-    display: flex;
-    bottom: -74px;
-    left: 70px;
+
     background: #8366D3;
     border-radius: 30px;
     padding: 10px;
+    display: flex;
+    width: 20%;
 }
 
 .icon-prev {
